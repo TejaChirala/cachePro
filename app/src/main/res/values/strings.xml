@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CacheContent</string>
+    <string name="user_profile_pic">user profile pic</string>
+    <string name="background_image">background Image</string>
+    <string name="like">Likes</string>
+    <string name="categories">Categories</string>
+    <string name="collections">Collections</string>
+    <string name="try_again">Try Again!</string>
+    <string name="network_error">Network Error</string>
+    <string name="internal_error">Internal Error</string>
+    <string name="please_try_again">Something went wrong, Please try again after sometime.</string>
+    <string name="network_message">You seems to be offline. Please check your network connection.</string>
+    <string name="loading">Loading…</string>
+
+</resources>
