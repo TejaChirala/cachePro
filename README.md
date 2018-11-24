@@ -86,4 +86,8 @@ CachePro.with(context)
  CachePro.with(context)
          .cancelRequestsWithTag("tag");
  ```       
+ 
+ ## Check out the tests ![here](https://github.com/TejaChirala/cachePro/tree/master/app/src/androidTest/java/com/tejachirala/cachecontent)
+ 
+ 
 
