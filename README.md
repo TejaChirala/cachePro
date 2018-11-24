@@ -5,7 +5,7 @@ allowing only one network call per url while the other requests recieve the same
 
 Checkout the sample app(CacheContent) with use of cachePro with Ripple, Animation, Swipe to refresh layout.
 
-![alt text](https://github.com/TejaChirala/cachePro/blob/master/cache%20content.png)
+![Screen shot](https://github.com/TejaChirala/cachePro/blob/master/cache_content.png)
 
 ## Bitmap
 ```
