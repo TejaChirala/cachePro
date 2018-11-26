@@ -10,7 +10,6 @@ public class RequestCreator {
     private String url;
     private MemoryCache memoryCache;
     private ExecutorService pool;
-    private int resultContentType;
 
     RequestCreator(String url, MemoryCache memoryCache, ExecutorService pool) {
 
@@ -22,8 +21,6 @@ public class RequestCreator {
 
     public ImageOptionsBuilder getAsImageBitmap() {
 
-        resultContentType = ContentType.TYPE_IMAGE;
-
         return new ImageOptionsBuilder(url, memoryCache, pool);
 
     }
@@ -31,15 +28,11 @@ public class RequestCreator {
 
     public JSONObjectOptionBuilder getAsJSONObject() {
 
-        resultContentType = ContentType.TYPE_JSON_OBJECT;
-
         return new JSONObjectOptionBuilder(url, memoryCache, pool);
 
     }
 
     public JSONArrayOptionBuilder getAsJSONArray() {
-
-        resultContentType = ContentType.TYPE_JSON_ARRAY;
 
         return new JSONArrayOptionBuilder(url, memoryCache, pool);
 

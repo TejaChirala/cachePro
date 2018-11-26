@@ -35,7 +35,7 @@ public class CachePro {
         this.context = context;
         this.memoryCache = memoryCache;
         pool = executorService;
-        this.requestMap = requestMap;
+        CachePro.requestMap = requestMap;
     }
 
     public static CachePro with(Context context) {
